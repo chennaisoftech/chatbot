@@ -1,14 +1,13 @@
-# Author: Dhaval Patel. Codebasics YouTube Channel
-
 import mysql.connector
 global cnx
+
 
 cnx = mysql.connector.connect(
     host="chatbot.mysql.database.azure.com",
     user="riyaz",
     password="August26@",
     database="pandeyji_eatery",
-    ssl_ca="/DigiCertGlobalRootCA.crt.pem", 
+    ssl_ca="/DigiCertGlobalRootCA.crt.pem",
     ssl_disabled=False
 )
 
